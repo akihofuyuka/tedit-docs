@@ -5,7 +5,7 @@ description: Settings window — all configurable options
 
 # Settings
 
-Open Settings from the menu bar: **Edit > Settings** or use the keyboard shortcut.
+Open **File > Settings**.
 
 ![Settings Window](/img/v5/configuration/settings.png)
 
@@ -16,6 +16,16 @@ TEdit 5 features a completely redesigned settings window with search and categor
 - **Search** — Type in the search bar to find any setting by name
 - **Categories** — Settings are grouped into expandable sections
 - **Save / Cancel** — Apply or discard changes
+
+## Connect a local agent
+
+In a TEdit build with MCP support, expand **MCP** and select **Enable local MCP server**. To let agents on your computer connect without a token, select **Share access with all local clients without a token**. Use shared access only if you trust the apps on your computer.
+
+![Expanded MCP settings with the local server and token-free sharing enabled. Drawing tools are on and scripts are off.](/img/v5/configuration/settings-mcp.png)
+
+TEdit selects **Allow drawing tools** for new setups. Clear it if you want the agent to inspect the world without editing it. To let the agent run scripts as well as draw, select **Also allow JavaScript and Lua scripts**.
+
+Select **Save**, then [connect your agent to TEdit](connect-an-agent.md). Before each editing session, [save a separate backup copy of your world](saves-and-backups.md).
 
 ## Categories
 

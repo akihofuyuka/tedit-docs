@@ -60,6 +60,7 @@ const sidebars = {
       label: 'Configuration',
       items: [
         'configuration/settings',
+        'configuration/connect-an-agent',
         'configuration/keybindings',
         'configuration/saves-and-backups',
         'configuration/localization',
